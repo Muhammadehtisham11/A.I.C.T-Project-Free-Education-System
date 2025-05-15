@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/online-education-application-learning-worldwide-computer-mobile-website-background-social-distance-concept-classroom-training-course-library-vector-illustration-flat_1150-60954.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333333;
+}
+
+.overlay {
+    background-color: rgba(28, 131, 134, 0.85);
+    min-height: 100vh;
+}
+
+.news-header {
+    background-color: #003366;
+    color: white;
+    padding: 8px 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.college-header {
+    text-align: center;
+    padding: 25px 0 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.college-header h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #003366;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.college-header p {
+    margin: 10px 0 0;
+    font-style: italic;
+    color: #555;
+    font-size: 16px;
+}
+
+nav {
+    background-color: #003366;
+    padding: 12px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
+
+.main-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.left-column {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.welcome-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-column {
+    width: 350px;
+}
+
+.section-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(128, 32, 32, 0.1);
+}
+
+.section-title {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.news-item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #aaa;
+}
+
+.news-date {
+    font-weight: bold;
+    color: #003366;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+.main-title {
+    font-size: 28px;
+    color: #003366;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 25px;
+    font-style: italic;
+}
